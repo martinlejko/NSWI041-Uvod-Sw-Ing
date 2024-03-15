@@ -15,16 +15,16 @@ Students
   - As a student, I should be able to see the public information of other students because I may want to contact the person.
   - As a student, I should be able to generate confirmation documents of my studies because some organization may want it provided.
 
-Study department/admin
-  - As the study department, we should be able to add new users, and also remove them, because we decide who is our employee/student.
-  - As the study department, we should be able to alter anyone's information because we are the admin and if students can we also can.
-  - As the study department, we should be able to see anyone’s information because we are all knowing.
-
 Employees
   - As an employee, I should be able to view my personal information because what is the point otherwise.
   - As an employee, I should be able to view my position because I want to keep myself posted.
   - As an employee, I should be able to edit my information in case there is a change.
   - As an employee, I should be able to generate confirmation documents of my employment, because I might need them for confirmation by third party.
+
+Study department/admin
+  - As the study department, we should be able to add new users, and also remove them, because we decide who is our employee/student.
+  - As the study department, we should be able to alter anyone's information because we are the admin and if students can we also can.
+  - As the study department, we should be able to see anyone’s information because we are all knowing.
 
 All users
   - As any user, I should be able to display information publicly about myself, because I may want others to see them.
