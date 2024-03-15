@@ -8,7 +8,25 @@ This section specifies the functional requirements.
 
 ### User requirements
 
-[*List of user requirements*]
+Students
+  - As a student, I should be able to see my current state of study because I want to be informed.
+  - As a student, I should be able to edit my personal information because some event in my life can happen.
+  - As a student, I should be able to change which information about myself I make visible to the public because I do not feel comfortable sharing everything.
+  - As a student, I should be able to see the public information of other students because I may want to contact the person.
+  - As a student, I should be able to generate confirmation documents of my studies because some organization may want it provided.
+Study department/admin
+  - As the study department, we should be able to add new users, and also remove them, because we decide who is our employee/student.
+  - As the study department, we should be able to alter anyone's information because we are the admin and if students can we also can.
+  - As the study department, we should be able to see anyone’s information because we are all knowing.
+Employees
+  - As an employee, I should be able to view my personal information because what is the point otherwise.
+  - As an employee, I should be able to view my position because I want to keep myself posted.
+  - As an employee, I should be able to edit my information in case there is a change.
+  - As an employee, I should be able to generate confirmation documents of my employment, because I might need them for confirmation by third party.
+All users
+  - As any user, I should be able to display information publicly about myself, because I may want others to see them.
+  - As any user, I should be able to see information about others that is made public because I might want to get into contact with them.
+
 
 ### System requirements
 
