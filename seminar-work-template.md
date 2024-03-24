@@ -62,6 +62,7 @@ This represents any of the previous actors (All users of sis).
 [*Document here all use cases. Create a subsection for each use case diagram. If you have only one use case diagram, you do not need a special subsection*]
 
 Students
+```
 @startuml
 left to right direction
 
@@ -93,6 +94,7 @@ s -- EditPersonalData
 
 
 @enduml
+```
 
 
 Use case - Admission process of student
@@ -186,6 +188,7 @@ The student obtains confirmation documents about their studies
 Use case - Expulsion of the student
 
 Study department:
+```
 @startuml
 left to right direction
 
@@ -216,6 +219,7 @@ Notify ..> EndOfStudy: <<include>>
 
 
 @enduml
+```
 
 
 Precondition:
@@ -259,6 +263,7 @@ The student leaves the university
 
 
 Employee:
+```
 @startuml
 left to right direction
 
@@ -283,6 +288,7 @@ e -- ViewPersonalData
 e -- EditPersonalData
 
 @enduml
+```
 
 Use case - The firing of an employee
 
@@ -300,6 +306,7 @@ Employee leaves the university
 
 ## Information model
 
+```
 @startuml
 package “Student Information System” {
 package “Student Information Module” {
@@ -338,6 +345,7 @@ UC6 .> UC7 : <<include>>
 UC7 .> UC8 : <<extend>>
 
 @enduml
+```
 
 
 
