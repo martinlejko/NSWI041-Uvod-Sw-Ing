@@ -70,7 +70,7 @@ This section specifies the functional requirements.
 
 [*Document here all use cases. Create a subsection for each use case diagram. If you have only one use case diagram, you do not need a special subsection*]
 
-Students
+## Students
 ```
 @startuml
 left to right direction
@@ -106,7 +106,7 @@ s -- EditPersonalData
 ```
 
 
-#Use case - Admission process of student
+# Use case - Admission process of student
 
 Precondition:
 - The student applied for study and was admitted
@@ -128,7 +128,7 @@ What can go wrong:
 Postcondition:
 - The student is registered for a subsequent unit of study.
 
-#Use case - Admission process of employee
+# Use case - Admission process of employee
 
 Precondition:
 - An employee appointed for a job
@@ -149,7 +149,7 @@ What can go wrong:
 Postcondition:
 - The employee is registered in the study system.
 
-#Use case - Change of personal information
+# Use case - Change of personal information
 
 Precondition:
 - The student applied for study and was admitted
@@ -168,7 +168,7 @@ What can go wrong:
 Postcondition:
 - The student is registered for a subsequent unit of study.
 
-#Use case - Confirmation documents of student studies
+# Use case - Confirmation documents of student studies
 
 Precondition:
 - A student has requested confirmation documents of their studies
@@ -187,10 +187,10 @@ What can go wrong:
 Postcondition:
 - The student obtains confirmation documents about their studies
 
-#Use case - Expulsion of the student
+# Use case - Expulsion of the student
 
-##Study department:
-```
+## Study department:
+```uml
 @startuml
 left to right direction
 
@@ -240,7 +240,7 @@ What can go wrong:
 Postcondition:
 - The student leaves the university
 
-#Use case - Graduation of the student
+# Use case - Graduation of the student
 
 Precondition:
 - The student  meets all required criteria
@@ -258,7 +258,7 @@ What can go wrong:
 Postcondition:
 - The student leaves the university
 
-##Employee:
+## Employee:
 ```
 @startuml
 left to right direction
@@ -286,7 +286,7 @@ e -- EditPersonalData
 @enduml
 ```
 
-#Use case - The firing of an employee
+# Use case - The firing of an employee
 
 Precondition:
 - The employee has been fired from his position.
