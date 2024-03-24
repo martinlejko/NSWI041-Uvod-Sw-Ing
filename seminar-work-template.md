@@ -71,7 +71,7 @@ This section specifies the functional requirements.
 [*Document here all use cases. Create a subsection for each use case diagram. If you have only one use case diagram, you do not need a special subsection*]
 
 ### Students
-```
+```plantuml
 @startuml
 left to right direction
 
@@ -190,7 +190,7 @@ Postcondition:
 **Use case - Expulsion of the student**
 
 ### Study department:
-```uml
+```plantuml
 @startuml
 left to right direction
 
@@ -259,7 +259,7 @@ Postcondition:
 - The student leaves the university
 
 ### Employee:
-```
+```plantuml
 @startuml
 left to right direction
 
@@ -302,7 +302,7 @@ Postcondition:
 
 ## Information model
 
-```
+```plantuml
 @startuml
 package “Student Information System” {
 package “Student Information Module” {
