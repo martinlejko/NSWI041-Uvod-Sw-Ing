@@ -300,6 +300,23 @@ What can go wrong:
 Postcondition:
 - Employee leaves the university
 
+**Use case - Generation of employment domcuments**
+
+Precondition:
+- An employee has requested confirmation documents of their employments
+
+Normal flow:
+- The employee has requested employment documents
+- The admin checks if the employee is able to get their employment documents
+- The employment documents are available for employee
+
+What can go wrong:
+- The employee is not eligible to view requested documents
+- The employee documents changed
+
+Postcondition:
+- The employee obtains employment documents about their studies
+
 ## Information model
 
 ```plantuml
