@@ -149,6 +149,25 @@ What can go wrong:
 Postcondition:
 - The employee is registered in the study system.
 
+**Use case - Change information access**
+
+Precondition:
+- User wants to change their information status to public/private
+
+Normal flow:
+- The user go to their information model 
+- The user select which information are public and private
+
+The study system accepts this change
+
+What can go wrong:
+- The information cannot be set as private/public
+  - The user is acqauinted about this situation and can not change this status
+  
+Postcondition:
+- The users information access is changed.
+
+
 **Use case - Change of personal information**
 
 Precondition:
