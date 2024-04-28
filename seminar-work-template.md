@@ -336,45 +336,56 @@ What can go wrong:
 Postcondition:
 - The employee obtains employment documents about their studies
 
-## Information model
+## Domain Model
 
 ```plantuml
 @startuml
-package “Student Information System” {
-package “Student Information Module” {
-	actor Student
-	actor Employee
-	actor “Study department/Admin” as StudyDepartment
-	usecase “View Personal Information” as UC1
-	usecase “Edit Personal Information” as UC2
-	usecase “Change Visibility of Information” as UC3
-	usecase “Generate Confirmation Documents” as UC4
-	usecase “View Public Information of Others” as UC5
-	usecase “Add or Remove Users” as UC6
-	usecase “Alter Any User Information” as UC7
-	usecase “View Any User Information” as UC8
-	usecase “View Position Information” as UC9
-	}
+
+' Define classes
+class User {
+  + UserID
+  + Username
+  + Email
+  + UserType
 }
 
-Student --> UC1
-Student --> UC2
-Student --> UC3
-Student --> UC4
-Student --> UC5
+class Student {
+  + StudentID
+  + CurrentStateOfStudy
+}
 
-Employee --> UC1
-Employee --> UC9
-Employee --> UC2
-Employee --> UC4
+class Employee {
+  + EmployeeID
+  + Position
+}
 
-StudyDepartment --> UC6
-StudyDepartment --> UC7
-StudyDepartment --> UC8
+class Admin {
+  + AdminID
+}
 
-UC3 .> UC5 : <<extend>>
-UC6 .> UC7 : <<include>>
-UC7 .> UC8 : <<extend>>
+class PersonalInformation {
+  + InfoID
+  + UserID
+  + Address
+  + PhoneNumber
+  + PrivacySettings
+}
+
+class Document {
+  + DocumentID
+  + UserID
+  + DocumentType
+  + DateIssued
+}
+
+' Inheritance
+Student --|> User
+Employee --|> User
+Admin --|> User
+
+' Associations
+User "1  " -- "1" PersonalInformation : "has >"
+User "1" -- "0 .. *  " Document : "requests >"
 
 @enduml
 ```
