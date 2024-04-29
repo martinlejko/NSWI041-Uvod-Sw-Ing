@@ -68,7 +68,6 @@ This section specifies the functional requirements.
 
 ## Use cases
 
-[*Document here all use cases. Create a subsection for each use case diagram. If you have only one use case diagram, you do not need a special subsection*]
 
 ### Students
 ```plantuml
