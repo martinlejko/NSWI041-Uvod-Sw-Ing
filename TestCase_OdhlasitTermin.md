@@ -1,4 +1,4 @@
-Test Conditions
+# Test Conditions
 <table>
     <thead>
         <th>ID</th>
@@ -52,7 +52,9 @@ Test Conditions
     </tr>
 </table>
 
-Test Case 1 (Use Case = Odhlášení z Termínu)
+# Test cases
+
+## Test Case 1 (Use Case = Odhlášení z Termínu)
 <table>
     <tr>
         <th>ID</th>
@@ -112,7 +114,7 @@ Test Case 1 (Use Case = Odhlášení z Termínu)
         <td>The system unregisters the user from the selected term and displays a confirmation message.</td>
     </tr>
 </table>
-Test Case 2 (Use Case = Odhlášení z Termínu)
+## Test Case 2 (Use Case = Odhlášení z Termínu)
 <table>
     <tr>
         <th>ID</th>
@@ -172,7 +174,7 @@ Test Case 2 (Use Case = Odhlášení z Termínu)
         <td>The system prevents unregistration and displays an error message.</td>
     </tr>
 </table>
-Test Case 3 (Use Case = Odhlášení z Termínu)
+## Test Case 3 (Use Case = Odhlášení z Termínu)
 <table>
     <tr>
         <th>ID</th>
