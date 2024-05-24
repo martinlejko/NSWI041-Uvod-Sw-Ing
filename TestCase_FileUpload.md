@@ -284,6 +284,130 @@
     </tr>
 </table>
 
+## Test Case 5 (Use Case = File Upload)
+
+<table>
+    <tr>
+        <th>ID</th>
+        <td colspan="2">T_CASE_05</td>
+    </tr>
+    <tr>
+        <th>Title</th>
+        <td colspan="2">Maximum File Upload Limit</td>
+    </tr>
+    <tr>
+        <th>Priority</th>
+        <td colspan="2">Medium</td>
+    </tr>
+    <tr>
+        <th>Preconditions</th>
+        <td colspan="2">The user is logged into the system and has an existing application with the maximum number of files already uploaded.</td>
+    </tr>
+    <tr>
+        <th>Postconditions</th>
+        <td colspan="2">The user is informed that they cannot upload more files.</td>
+    </tr>
+    <tr>
+        <th>Role</th>
+        <td colspan="2">User</td>
+    </tr>
+    <tr>
+        <th>Test Data</th>
+        <td colspan="2">User account details, existing application with the maximum number of uploaded files.</td>
+    </tr>
+    <tr>
+        <th>Covered Test Conditions</th>
+        <td colspan="2">TC5</td>
+    </tr>
+    <tr>
+        <th>Test steps</th>
+        <th>Action</th>
+        <th>Expected result</th>
+    </tr>
+    <tr>
+        <td>1.</td>
+        <td>Log in to the system.</td>
+        <td>User is logged in.</td>
+    </tr>
+    <tr>
+        <td>2.</td>
+        <td>Open the details of an existing application.</td>
+        <td>Application details page is displayed.</td>
+    </tr>
+    <tr>
+        <td>3.</td>
+        <td>Click the option to add files.</td>
+        <td>File upload options are displayed.</td>
+    </tr>
+    <tr>
+        <td>4.</td>
+        <td>Attempt to upload an additional file.</td>
+        <td>The system displays an error message indicating the maximum file upload limit has been reached.</td>
+    </tr>
+</table>
+
+## Test Case 6 (Use Case = File Upload)
+
+<table>
+    <tr>
+        <th>ID</th>
+        <td colspan="2">T_CASE_06</td>
+    </tr>
+    <tr>
+        <th>Title</th>
+        <td colspan="2">File Upload Security</td>
+    </tr>
+    <tr>
+        <th>Priority</th>
+        <td colspan="2">High</td>
+    </tr>
+    <tr>
+        <th>Preconditions</th>
+        <td colspan="2">The user is logged into the system and has an existing application.</td>
+    </tr>
+    <tr>
+        <th>Postconditions</th>
+        <td colspan="2">The file is scanned for security threats, and the user is informed of the result.</td>
+    </tr>
+    <tr>
+        <th>Role</th>
+        <td colspan="2">User</td>
+    </tr>
+    <tr>
+        <th>Test Data</th>
+        <td colspan="2">User account details, existing application, file with potential security threat.</td>
+    </tr>
+    <tr>
+        <th>Covered Test Conditions</th>
+        <td colspan="2">TC6</td>
+    </tr>
+    <tr>
+        <th>Test steps</th>
+        <th>Action</th>
+        <th>Expected result</th>
+    </tr>
+    <tr>
+        <td>1.</td>
+        <td>Log in to the system.</td>
+        <td>User is logged in.</td>
+    </tr>
+    <tr>
+        <td>2.</td>
+        <td>Open the details of an existing application.</td>
+        <td>Application details page is displayed.</td>
+    </tr>
+    <tr>
+        <td>3.</td>
+        <td>Click the option to add files.</td>
+        <td>File upload options are displayed.</td>
+    </tr>
+    <tr>
+        <td>4.</td>
+        <td>Select a file with potential security threat and click "Open".</td>
+        <td>The system scans the file for security threats and displays a relevant message if a threat is found.</td>
+    </tr>
+</table>
+
 
 
 
