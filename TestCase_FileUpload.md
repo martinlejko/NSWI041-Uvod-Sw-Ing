@@ -47,6 +47,7 @@
 # Test Cases
 
 ##Test Case 1 (Use Case = File Upload)
+
 <table>
     <tr>
         <th>ID</th>
@@ -101,7 +102,9 @@
         <td>File upload options are displayed.</td>
     </tr>
 </table>
+
 ##Test Case 2 (Use Case = File Upload)
+
 <table>
     <tr>
         <th>ID</th>
@@ -161,7 +164,9 @@
         <td>The file is uploaded successfully, and a confirmation message is displayed.</td>
     </tr>
 </table>
+
 ##Test Case 3 (Use Case = File Upload)
+
 <table>
     <tr>
         <th>ID</th>
@@ -221,7 +226,9 @@
         <td>The system displays an error message indicating why the file is invalid.</td>
     </tr>
 </table>
+
 ##Test Case 4 (Use Case = File Upload)
+
 <table>
     <tr>
         <th>ID</th>
