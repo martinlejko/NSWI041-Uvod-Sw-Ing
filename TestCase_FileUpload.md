@@ -268,8 +268,21 @@
         <th>Expected result</th>
     </tr>
     <tr>
-        <td>1.</
-
+        <td>1.</td>
+        <td>Log in to the system.</td>
+        <td>User is logged in.</td>
+    </tr>
+    <tr>
+        <td>2.</td>
+        <td>Open the details of an existing application.</td>
+        <td>Application details page is displayed.</td>
+    </tr>
+    <tr>
+        <td>3.</td>
+        <td>Scroll to the file upload section.</td>
+        <td>The list of uploaded files is displayed.</td>
+    </tr>
+</table>
 
 
 
